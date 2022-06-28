@@ -1,0 +1,6 @@
+com\karima\io\read\Reader.class
+Main.class
+com\karima\io\Client.class
+com\karima\io\write\CsvWriter.class
+com\karima\io\read\CsvReader.class
+com\karima\io\write\Writer.class

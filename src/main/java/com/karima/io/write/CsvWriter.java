@@ -10,6 +10,12 @@ import com.opencsv.CSVWriter;
 
 class CsvWriter implements Writer {
 
+	/**
+	 * writeFile writes in a csv file some clients information (id and status)
+	 * @param filePath - the csv file path
+	 * @param clients - the array list of clients 
+	 * return void
+	 */
 	@Override
 	public void writeFile(String filePath, ArrayList<Client> clients) {
 		
