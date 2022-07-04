@@ -1,13 +1,14 @@
+package batchProject;
+
 import java.util.ArrayList;
 
-import com.karima.io.Client;
-import com.karima.io.read.Reader;
-import com.karima.io.write.Writer;
+import com.io.read.Reader;
+import com.io.write.Writer;
 
 public class Main { 
 	
 	public static void main(String[] args) {
-		
+
 		final  int CSV =  0 ;
 		
 		Reader r = Reader.getReader(CSV);

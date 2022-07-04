@@ -1,4 +1,4 @@
-package com.karima.io;
+package batchProject;
 
 public class Client {
 

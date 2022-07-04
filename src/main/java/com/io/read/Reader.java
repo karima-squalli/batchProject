@@ -1,8 +1,10 @@
-package com.karima.io.read;
+package com.io.read;
 
 import java.util.ArrayList;
 
-import com.karima.io.Client;
+import batchProject.Client;
+
+
 
 public interface Reader {
 
@@ -11,7 +13,7 @@ public interface Reader {
 	 * @param code - the reader code (0 for csv reader) 
 	 * @return the appropriate reader class, or null if code is not recognized
 	 */
-	static Reader getReader(int code) {
+	public static Reader getReader(int code) {
         switch (code) {
             case 0: 
             	return new CsvReader();
@@ -21,5 +23,4 @@ public interface Reader {
     }
 	
 	ArrayList<Client> readFile(String filePath);
-
 }

@@ -1,8 +1,9 @@
-package com.karima.io.write;
+package com.io.write;
 
 import java.util.ArrayList;
 
-import com.karima.io.Client;
+import batchProject.Client;
+
 
 public interface Writer {
 

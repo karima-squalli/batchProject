@@ -1,10 +1,11 @@
-package com.karima.io.read;
+package com.io.read;
 
 import java.io.*;
 import java.util.ArrayList;
 
-import com.karima.io.Client;
 import com.opencsv.CSVReader;
+
+import batchProject.Client;
 
 class CsvReader implements Reader {
 
@@ -37,3 +38,4 @@ class CsvReader implements Reader {
 		return clients;
 	}
 }
+

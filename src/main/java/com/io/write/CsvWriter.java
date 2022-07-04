@@ -1,12 +1,13 @@
-package com.karima.io.write;
+package com.io.write;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.karima.io.Client;
 import com.opencsv.CSVWriter;
+
+import batchProject.Client;
 
 class CsvWriter implements Writer {
 
