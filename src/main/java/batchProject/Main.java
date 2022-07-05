@@ -7,7 +7,7 @@ import com.io.write.Writer;
 
 public class Main { 
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 
 		final  int CSV =  0 ;
 		

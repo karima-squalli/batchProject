@@ -8,6 +8,7 @@ import java.util.List;
 import com.opencsv.CSVWriter;
 
 import batchProject.Client;
+import batchProject.Utils;
 
 class CsvWriter implements Writer {
 
@@ -29,10 +30,10 @@ class CsvWriter implements Writer {
 	                                         CSVWriter.DEFAULT_LINE_END);
 	  
 	        List<String[]> data = new ArrayList<String[]>();
-	        for (Client client: clients) {
-	        	data.add(new String[] { String.valueOf(client.getId()), client.getStatut() });
-			}
 	        
+	        for (Client client: clients) {
+	        	data.add(new String[] { String.valueOf(client.getId()), client.getStatut(), Utils.convertDateToString(client.getDate()) });
+			}
 	        writer.writeAll(data);
 	        writer.close();
 	    }

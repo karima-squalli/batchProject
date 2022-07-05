@@ -22,5 +22,5 @@ public interface Reader {
         }
     }
 	
-	ArrayList<Client> readFile(String filePath);
+	ArrayList<Client> readFile(String filePath) throws Exception;
 }

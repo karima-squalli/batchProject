@@ -1,17 +1,19 @@
 package batchProject;
 
+import java.util.Date;
+
 public class Client {
 
 	private int id;
 	private String nom;
 	private String prénom;
 	
-	private String date;
+	private Date date;
 	private String produit;
 	private double montant;
 	private String statut;
 	
-	public Client(int id, String nom, String prénom, String date, String produit, double montant, String statut) {
+	public Client(int id, String nom, String prénom, Date date, String produit, double montant, String statut) {
 		this.id = id;
 		this.nom = nom;
 		this.prénom = prénom;
@@ -39,10 +41,10 @@ public class Client {
 	public void setPrénom(String prénom) {
 		this.prénom = prénom;
 	}
-	public String getDate() {
+	public Date getDate() {
 		return date;
 	}
-	public void setDate(String date) {
+	public void setDate(Date date) {
 		this.date = date;
 	}
 	public String getProduit() {
