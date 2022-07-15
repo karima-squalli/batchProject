@@ -1,0 +1,13 @@
+id;nom;prénom;date;produit;montant;statut
+1;toto1;tata1;13/07/2022;PROD;12000,5;traité
+2;toto2;tata2;14/06/2022;PROD;1000,9;en cours
+3;toto3;tata3;15/06/2022;PROD;100;non traité
+4;toto4;tata4;15/01/2023;PROD;100,82;traité
+5;toto5;tata5;15/06/2021;PROD;1001,25;non traité
+6;toto6;tata6;15/06/2018;PROD;18001,25;non traité
+7;toto7;tata7;15/07/2022;PROD;12000,5;traité
+8;toto8;tata8;14/06/2022;PROD;1000,9;en cours
+9;toto9;tata9;23/05/2022;PROD;4100;non traité
+10;toto10;tata10;15/11/2023;PROD;1300,82;traité
+11;toto11;tata11;15/12/2024;PROD;1001,45;non traité
+12;toto12;tata12;15/06/2025;PROD;180701,25;en cours

@@ -8,15 +8,13 @@ import com.io.write.Writer;
 public class Main { 
 	
 	public static void main(String[] args) throws Exception {
-
-		final  int CSV =  0 ;
 		
-		Reader r = Reader.getReader(CSV);
+		Reader r = Reader.getReader(Integer.parseInt(args[0]));
 		
-		ArrayList<Client> clients = r.readFile("src/main/resources/input.csv");
+		ArrayList<Client> clients = r.readFile(args[1]);
 		
-		Writer w = Writer.getWriter(CSV);
+		Writer w = Writer.getWriter(Integer.parseInt(args[0]));
 		
-		w.writeFile("src/main/resources/output.csv", clients);
+		w.writeFile(args[2], clients);
 	}
 }
